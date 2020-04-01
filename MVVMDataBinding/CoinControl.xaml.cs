@@ -47,6 +47,16 @@ namespace MVVMDataBinding
             get { return (int)GetValue(QuantityProperty); }
             set => SetValue(QuantityProperty, value);
         }
+
+        public void OnIncreaseClicked(object sender, RoutedEventArgs e)
+        {
+            Quantity++;
+        }
+        
+        public void OnDecreaseClicked(object sender, RoutedEventArgs e)
+        {
+            Quantity--;
+        }
         public CoinControl()
         {
             InitializeComponent();
