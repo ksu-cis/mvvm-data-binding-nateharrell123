@@ -14,7 +14,7 @@
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom">
             
         </StackPanel>
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="0">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="1">
             <local:CoinControl Denomination="Penny" Quantity="{Binding Path=Pennies}"/>
             <local:CoinControl Denomination="Dime" Quantity="{Binding Path=Dimes}"/>
             <local:CoinControl Denomination="Nickel" Quantity="{Binding Path=Nickels}"/>
@@ -23,7 +23,7 @@
             <local:CoinControl Denomination="Dollar" Quantity="{Binding Path=Dollar}"/>
         </StackPanel>
 
-        <StackPanel  Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="1">
+        <StackPanel  Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Row="0">
             <local:DollarControl Denomination="One" Quantity="{Binding Path=Ones}"/>
             <local:DollarControl Denomination="Five" Quantity="{Binding Path=Fives}"/>
             <local:DollarControl Denomination="Ten" Quantity="{Binding Path=Tens}"/>

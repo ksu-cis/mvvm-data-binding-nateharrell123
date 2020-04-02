@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:MVVMDataBinding"
              mc:Ignorable="d" 
-             d:DesignHeight="120" d:DesignWidth="120">
+             d:DesignHeight="100" d:DesignWidth="100">
     <Border BorderBrush="Gray" BorderThickness="1" Padding="5">
         <Grid>
             <Grid.ColumnDefinitions>
